@@ -100,3 +100,7 @@ The interface follows your browser preferences until you choose a language. Swit
 Import a browser bookmark HTML export, review the new/duplicate/skipped counts, and add links without replacing saved entries. Nested folder paths become collections; notes and tags are retained when present. Your editor draft stays intact. [Migration guide and supported limits](docs/MIGRATION.md).
 
 ![Browser import review in German, with a preserved editor draft](docs/assets/browser-import.png)
+
+## Current verification
+
+See the [26 November audit checkpoint](docs/AUDIT.md) for the verified repository, release links, fresh core test result and remaining deployment/browser gates. Earlier validation records remain dated evidence.

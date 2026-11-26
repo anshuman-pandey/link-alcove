@@ -18,5 +18,29 @@
     "vendor": "https://raindrop.io/",
     "naming": "GitHub name search bookmark-cabinet returned no matches; not trademark clearance"
   },
-  "next_action": "Publish independent repository when accessible; verify browser HTML import and hosted HTTPS."
+  "next_action": "Publish independent repository when accessible; verify browser HTML import and hosted HTTPS.",
+  "current_audit": {
+    "checked_at": "2026-11-26T13:36:59.571702+00:00",
+    "source_head": "5c19fd410997a3dad66d38e2a273799a4d9078be",
+    "source_publication": "https://github.com/anshuman-pandey/link-alcove",
+    "source_public": true,
+    "ci": {
+      "conclusion": "success",
+      "headSha": "5c19fd410997a3dad66d38e2a273799a4d9078be",
+      "status": "completed",
+      "url": "https://github.com/anshuman-pandey/link-alcove/actions/runs/43703048443"
+    },
+    "local_core_check": {
+      "exit": 0,
+      "summary": "l terms and collection (4.590585ms)\n✔ browser HTML escapes imported markup and keeps folders (0.504645ms)\n✔ malformed and oversized imports fail before storage (4.203172ms)\n✔ Chrome-style nested folders, entities, unclosed DT/DD, tags and notes (12.720826ms)\n✔ unsupported URLs and duplicates have visible counts; credentials never imported (3.299482ms)\n✔ browser export is data only; scripts and resource attributes do not become content (1.836673ms)\n✔ existing URL wins, repeat imports are idempotent, input objects unchanged (0.847607ms)\n✔ our HTML export round-trips titles, folders, notes and tags without markup execution (3.206502ms)\n✔ ordinary pages, empty, unsupported, oversized and deeply nested inputs fail safely (43.534019ms)\n✔ overlong fields are counted as skipped, oversized notes fail whole preview (2.454189ms)\n✔ stale drafts cannot overwrite newer saved revisions (2.338591ms)\n✔ quota failure does not mutate previous library (1.648473ms)\n✔ corrupt storage requires explicit recovery and exact raw comparison (1.546836ms)\n✔ unsupported locking refuses unsafe writes (0.967499ms)\nℹ tests 17\nℹ suites 0\nℹ pass 17\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 236.390482\n"
+    },
+    "release_urls": [],
+    "hosted_demo_url": null,
+    "remaining_gates": [
+      "Public HTTPS deployment",
+      "Native browser bookmark manager import",
+      "Broader naming review"
+    ],
+    "note": "Historical validation below is retained as dated evidence. Source publication does not establish a hosted deployment."
+  }
 }
